@@ -1,59 +1,57 @@
-<div class="row">
-  <section class="col-sm-6 col col-sm-offset-1">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner border" role="listbox">
-        <div class="item active">
-          <%= image_tag("http://www.crackerboxpalace.org/wp-content/uploads/2016/04/Blind-Horse-2.jpg", width: "500px", height: "600px", alt: "horse") %>
-        </div>
-        <div class="item">
-          <%= image_tag("http://cdn.thehorse.com/images/cms/2013/11/chestnut-horse-conformation-shot.jpg?preset=medium", width: "500px", height: "600px", alt: "horse") %>
-        </div>
-        <div class="item">
-          <%= image_tag("https://upload.wikimedia.org/wikipedia/commons/4/46/043_S%C3%A6var_fr%C3%A1_Stangarholti.jpg", width: "500px", height: "600px", alt: "horse") %>
-        </div>
-        <div class="item">
-          <%= image_tag("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRrhixizH3096IlT9Vj7wZwqWTUYfrfvmndYufb3KAS2rTx_pSYdw", width: "500px", height: "600px", alt: "horse") %>
+<article class="col-sm-12">
+  <div class="row">
+    <section class="col-sm-6 col col-sm-offset-1">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner border" role="listbox">
+          <div class="item active">
+            <%= image_tag("http://www.crackerboxpalace.org/wp-content/uploads/2016/04/Blind-Horse-2.jpg", width: "500", height: "600", alt: "horse") %>
+          </div>
+          <div class="item">
+            <%= image_tag("http://cdn.thehorse.com/images/cms/2013/11/chestnut-horse-conformation-shot.jpg?preset=medium", width: "500", height: "600", alt: "horse") %>
+          </div>
+          <div class="item">
+            <%= image_tag("https://upload.wikimedia.org/wikipedia/commons/4/46/043_S%C3%A6var_fr%C3%A1_Stangarholti.jpg", width: "500", height: "600", alt: "horse") %>
+          </div>
+          <div class="item">
+            <%= image_tag("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRrhixizH3096IlT9Vj7wZwqWTUYfrfvmndYufb3KAS2rTx_pSYdw", width: "500", height: "600", alt: "horse") %>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <section class="col-xs-5 col-xs-offset-1 col-sm-6">
-        <div class="panel panel-default green">
-          <div class="panel-heading text-center green">
-            <h4>Triple C Pleasure Horses</h4>
+      <div class="row">
+        <section class="col-xs-5 col-sm-10">
+          <div class="panel panel-default green">
+            <div class="panel-heading text-center green">
+              <h4>Triple C Pleasure Horses</h4>
+            </div>
+            <div class="panel-body text-center green">
+              <p>
+                At Triple C, we want each rider and boarder to feel comfortable with their surroundings as well as with their horse. This is part of the process of making your horse feel comfortable and be understood by its riders. We offer pasture and stall boarding as well as lessons for beginning to intermediate riders. We have an indoor arena to better suit the cold weather and future events of our riders. We also offer trail rides, western pleasure, trail experience and halter breaking.
+
+                We specialize in matching horses with riders, we can work with you to find the perfect horse for you or the perfect rider for your horse!
+
+                Feel free to contact us with any questions about any of the services we provide, or to schedule a visit to come check us out!
+              </p>
+            </div>
           </div>
-          <div class="panel-body text-center green">
-            <p>
-              At Triple C, we want each rider and boarder to feel comfortable with their surroundings as well as with their horse. This is part of the process of making your horse feel comfortable and be understood by its riders. We offer pasture and stall boarding as well as lessons for beginning to intermediate riders. We have an indoor arena to better suit the cold weather and future events of our riders. We also offer trail rides, western pleasure, trail experience and halter breaking.
-
-              We specialize in matching horses with riders, we can work with you to find the perfect horse for you or the perfect rider for your horse!
-
-              Feel free to contact us with any questions about any of the services we provide, or to schedule a visit to come check us out!
-            </p>
-          </div>
-        </div>
-      </section>
-    </div>
-
-
-    <section class="col-md-4">
+        </section>
+      </div>
     </section>
-  </section>
 
-  <section class="col-md-3">
-    <%= image_tag("/assets/tripleclogotrans.png", alt: "triple c logo", class: "logo") %>
-    <div class="panel panel-default red">
-      <div class="panel-heading text-center red">
-        <h4>Triple C - Latest News</h4>
+    <section class="col-sm-3">
+      <%= image_tag("/assets/tripleclogotrans.png", alt: "triple c logo", class: "logo") %>
+      <div class="panel panel-default red">
+        <div class="panel-heading text-center red">
+          <h4>Triple C - Latest News</h4>
+        </div>
+        <div class="panel-body text-center red">
+          <p>
+            Agreement reached to protect 43,000 acres of white River Forest land ...Way to go King county and EFFRA
+          </p>
+          <p class="red-space">
+            <%= link_to("Visit Effra's Site", "http://effra.org", class: "panel-link red") %>
+          </p>
+        </div>
       </div>
-      <div class="panel-body text-center red">
-        <p>
-          Agreement reached to protect 43,000 acres of white River Forest land ...Way to go King county and EFFRA
-        </p>
-        <p class="red-space">
-          <%= link_to("Visit Effra's Site", "http://effra.org", class: "panel-link red") %>
-        </p>
-      </div>
-    </div>
-  </section>
-</div>
+    </section>
+  </div>
+</article>
