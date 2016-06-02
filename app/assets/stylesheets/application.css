@@ -82,3 +82,8 @@ img {
 .clearfix {
   overflow: auto;
 }
+
+h3 {
+  font-size: 28px;
+  font-family: monospace;
+}
