@@ -51,3 +51,32 @@ img {
 .red-space {
   padding: 2rem 0rem 1rem 0rem;
 }
+
+/*green*/
+.panel-heading.green {
+  background-color: rgb(72,106,46);
+  border-bottom-color: rgb(72,106,46)
+}
+
+.panel-body.green {
+  color: rgb(235,213,200);
+  background-color: rgb(59,50,48);
+}
+
+.panel-default.green {
+  border-color: rgb(72,106,46);
+}
+
+.panel-link.green {
+  color: rgb(235,213,200);
+  text-decoration: underline;
+}
+
+.logo {
+  border-style: none;
+  padding-bottom: 4rem;
+}
+
+.top {
+  display: inline-flex;
+}
