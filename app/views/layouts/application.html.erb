@@ -3,12 +3,49 @@
 <head>
   <title>TripleC</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+    <div class="container">
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li>
+            <%= link_to "Home", root_path %>
+          </li>
+          <li>
+            <%= link_to "Boarding", root_path %>
+          </li>
+          <li>
+            <%= link_to "Lessons", root_path %>
+          </li>
+          <li>
+            <%= link_to "Stallions", root_path %>
+          </li>
+          <li>
+            <%= link_to "For Sale", root_path %>
+          </li>
+          <li>
+            <%= link_to "Training", root_path %>
+          </li>
+          <li>
+            <%= link_to "Photo Gallery", root_path %>
+          </li>
+          <li>
+            <%= link_to "Events", root_path %>
+          </li>
+          <li>
+            <%= link_to "EFFRA", root_path %>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
 <%= yield %>
 
