@@ -2,12 +2,52 @@ body {
   padding-top: 99px;
   font-size: 20px;
   font-family: monospace;
-  color: #e6e6e6;
-  background-color: #333333;
+  color: rgb(235,213,200);
+  background-color: rgb(59,50,48);
+}
+
+.navbar-inverse {
+  font-size: 20px;
+  font-family: monospace;
+  background-color: rgb(39,34,31);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: rgb(235,213,200);
 }
 
 .carousel-inner {
-    position: absolute;
-    width: 40%;
-    overflow: hidden;
+  position: absolute;
+  height: 50rem;
+  width: 60rem;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+img {
+   border: 2px solid rgb(152,94,12);
+   border-radius: 5px;
+}
+
+.panel-heading.red {
+  background-color: rgb(160,57,16);
+  border-bottom-color: rgb(160,57,16)
+}
+
+.panel-body.red {
+  color: rgb(235,213,200);
+  background-color: rgb(59,50,48);
+}
+
+.panel-default.red {
+  border-color: rgb(160,57,16);
+}
+
+.panel-link.red {
+  color: rgb(235,213,200);
+  text-decoration: underline;
+}
+
+.red-space {
+  padding: 2rem 0rem 1rem 0rem;
 }
