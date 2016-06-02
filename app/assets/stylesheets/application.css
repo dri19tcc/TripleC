@@ -18,9 +18,8 @@ body {
 
 .carousel-inner {
   position: absolute;
-  height: 50rem;
   width: 60rem;
-  overflow: hidden;
+  /*overflow: hidden;*/
   border-radius: 5px;
 }
 
@@ -52,7 +51,6 @@ img {
   padding: 2rem 0rem 1rem 0rem;
 }
 
-/*green*/
 .panel-heading.green {
   background-color: rgb(72,106,46);
   border-bottom-color: rgb(72,106,46)
@@ -79,4 +77,8 @@ img {
 
 .top {
   display: inline-flex;
+}
+
+.clearfix {
+  overflow: auto;
 }
