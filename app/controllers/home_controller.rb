@@ -7,6 +7,10 @@ class HomeController < ApplicationController
 
   end
 
+  def lessons
+
+  end
+
   def training
 
   end
