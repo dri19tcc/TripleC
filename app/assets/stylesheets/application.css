@@ -16,13 +16,6 @@ body {
   color: rgb(235,213,200);
 }
 
-.carousel-inner {
-  position: absolute;
-  width: 60rem;
-  /*overflow: hidden;*/
-  border-radius: 5px;
-}
-
 img {
    border: 2px solid rgb(152,94,12);
    border-radius: 5px;
@@ -87,3 +80,5 @@ h3 {
   font-size: 28px;
   font-family: monospace;
 }
+
+.car

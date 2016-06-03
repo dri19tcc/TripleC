@@ -1,9 +1,14 @@
-<div class="container">
-  <div class="row">
-    <section class="col-sm-6">
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner border" role="listbox">
-          <div class="item active">
+
+<div class="col-md-9 col-md-offset-2">
+  <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+      <ol class="carousel-indicators">
+          <li data-target="#carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel" data-slide-to="1"></li>
+          <li data-target="#carousel" data-slide-to="2"></li>
+      </ol>
+      <!-- Carousel items -->
+      <div class="carousel-inner">
+          <div class="active item">
             <%= image_tag("http://www.crackerboxpalace.org/wp-content/uploads/2016/04/Blind-Horse-2.jpg", alt: "horse") %>
           </div>
           <div class="item">
@@ -15,54 +20,32 @@
           <div class="item">
             <%= image_tag("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRrhixizH3096IlT9Vj7wZwqWTUYfrfvmndYufb3KAS2rTx_pSYdw", alt: "horse") %>
           </div>
-        </div>
       </div>
-    </section>
+      <!-- Carousel nav -->
+      <a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+      <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
+  </div>
 
-    <section class="col-sm-4  col-sm-offset-1">
-      <%= image_tag("/assets/tripleclogotrans.png", alt: "triple c logo", class: "logo") %>
-      <div class="panel panel-default red">
-        <div class="panel-heading text-center red">
-          <h3>
-            Triple C
-            <br/>
-            Latest News
-          </h3>
-        </div>
-        <div class="panel-body text-center red">
-          <p>
-            Agreement reached to protect 43,000 acres of white River Forest land ...Way to go King county and EFFRA
-          </p>
-          <p class="red-space">
-            <%= link_to("Visit Effra's Site", "http://effra.org", class: "panel-link red") %>
-          </p>
-        </div>
-      </div>
-    </section>
+</div>
 
-
-    <section class="col-xs-6 col-offset-4">
-      <div class="row">
-        <div class="panel panel-default green">
-          <div class="panel-heading text-center green">
-            <h3>Triple C Pleasure Horses</h3>
-          </div>
-          <div class="panel-body text-center green">
-            <p>
-              At Triple C, we want each rider and boarder to feel comfortable with their surroundings as well as with their horse. This is part of the process of making your horse feel comfortable and be understood by its riders.
-            <p>
-              We offer pasture and stall boarding as well as lessons for beginning to intermediate riders. We have an indoor arena to better suit the cold weather and future events of our riders. We also offer trail rides, western pleasure, trail experience and halter breaking.
-            </p>
-            </p>
-            <p>
-              We specialize in matching horses with riders, we can work with you to find the perfect horse for you or the perfect rider for your horse!
-            </p>
-            <p>
-              Feel free to contact us with any questions about any of the services we provide, or to schedule a visit to come check us out!
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+<div class="col-md-12">
+  <div class="panel panel-default green">
+    <div class="panel-heading text-center green">
+      <h3>Triple C Pleasure Horses</h3>
+    </div>
+    <div class="panel-body text-center green">
+      <p>
+        At Triple C, we want each rider and boarder to feel comfortable with their surroundings as well as with their horse. This is part of the process of making your horse feel comfortable and be understood by its riders.
+      </p>
+      <p>
+        We offer pasture and stall boarding as well as lessons for beginning to intermediate riders. We have an indoor arena to better suit the cold weather and future events of our riders. We also offer trail rides, western pleasure, trail experience and halter breaking.
+      </p>
+      <p>
+        We specialize in matching horses with riders, we can work with you to find the perfect horse for you or the perfect rider for your horse!
+      </p>
+      <p>
+        Feel free to contact us with any questions about any of the services we provide, or to schedule a visit to come check us out!
+      </p>
+    </div>
   </div>
 </div>

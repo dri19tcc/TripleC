@@ -1,53 +1,81 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>TripleC</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <head>
+    <title>TripleC</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"/>
 
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-  <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
-    <div class="container">
-      <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
-          <li>
-            <%= link_to "Home", root_path %>
-          </li>
-          <li>
-            <%= link_to "Boarding", root_path %>
-          </li>
-          <li>
-            <%= link_to "Lessons", root_path %>
-          </li>
-          <li>
-            <%= link_to "Stallions", root_path %>
-          </li>
-          <li>
-            <%= link_to "For Sale", root_path %>
-          </li>
-          <li>
-            <%= link_to "Training", root_path %>
-          </li>
-          <li>
-            <%= link_to "Photo Gallery", root_path %>
-          </li>
-          <li>
-            <%= link_to "Events", root_path %>
-          </li>
-          <li>
-            <%= link_to "EFFRA", root_path %>
-          </li>
-        </ul>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+      <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+      <%= javascript_include_tag 'jquery.flexslider' %>
+      <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+      <%= stylesheet_link_tag    'flexslider'  %>
+      <%= csrf_meta_tags %>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li>
+              <%= link_to "Home", root_path %>
+            </li>
+            <li>
+              <%= link_to "Boarding", boarding_path %>
+            </li>
+            <li>
+              <%= link_to "Lessons", root_path %>
+            </li>
+            <li>
+              <%= link_to "Stallions", root_path %>
+            </li>
+            <li>
+              <%= link_to "For Sale", root_path %>
+            </li>
+            <li>
+              <%= link_to "Training", root_path %>
+            </li>
+            <li>
+              <%= link_to "Photo Gallery", root_path %>
+            </li>
+            <li>
+              <%= link_to "Events", root_path %>
+            </li>
+            <li>
+              <%= link_to "EFFRA", root_path %>
+            </li>
+          </ul>
+        </div>
       </div>
+    </nav>
+
+    <div class="row">
+      <div class="col-md-7">
+        <%= yield %>
+      </div>
+
+      <section class="col-md-3">
+        <%= image_tag("/assets/tripleclogotrans.png", alt: "triple c logo", class: "logo") %>
+        <div class="panel panel-default red">
+          <div class="panel-heading text-center red">
+            <h3>
+              Triple C
+              <br/>
+              Latest News
+            </h3>
+          </div>
+          <div class="panel-body text-center red">
+            <p>
+              Agreement reached to protect 43,000 acres of white River Forest land ...Way to go King county and EFFRA
+            </p>
+            <p class="red-space">
+              <%= link_to("Visit Effra's Site", "http://effra.org", class: "panel-link red") %>
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
-  </nav>
 
-<%= yield %>
-
-</body>
+  </body>
 </html>
