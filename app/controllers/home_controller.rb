@@ -6,4 +6,8 @@ class HomeController < ApplicationController
   def boarding
 
   end
+
+  def training
+
+  end
 end

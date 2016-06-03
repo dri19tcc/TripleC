@@ -25,5 +25,6 @@ module TripleC
     # config.assets.version = '1.0'
     config.autoload_paths += %W(#{config.root}/lib)
     config.autoload_paths += %W(#{config.root}/extras)
+    config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
   end
 end

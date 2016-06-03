@@ -17,7 +17,7 @@ body {
 }
 
 img {
-   border: 2px solid rgb(152,94,12);
+   border: 1px solid rgb(152,94,12);
    border-radius: 5px;
 }
 
@@ -46,7 +46,7 @@ img {
 
 .panel-heading.green {
   background-color: rgb(72,106,46);
-  border-bottom-color: rgb(72,106,46)
+  border-bottom-color: rgb(72,106,46);
 }
 
 .panel-body.green {
@@ -59,6 +59,30 @@ img {
 }
 
 .panel-link.green {
+  color: rgb(235,213,200);
+  text-decoration: underline;
+}
+
+.panel-heading.yellow {
+  background-color: rgb(152,94,12);
+  border-bottom-color: rgb(152,94,12);
+}
+
+.panel-body.yellow {
+  color: rgb(235,213,200);
+  background-color: rgb(59,50,48);
+}
+
+.panel-default.yellow {
+  border-color: rgb(152,94,12);
+}
+
+.panel-link.yellow {
+  color: rgb(152,94,12);
+  text-decoration: underline;
+}
+
+.training-link {
   color: rgb(235,213,200);
   text-decoration: underline;
 }
@@ -81,4 +105,11 @@ h3 {
   font-family: monospace;
 }
 
-.car
+.flexslider.yellow {
+  border-radius: 10px;
+  border: none;
+}
+
+a:hover.training-link {
+  color: rgb(235,213,200);
+}
