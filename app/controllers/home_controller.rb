@@ -11,6 +11,10 @@ class HomeController < ApplicationController
 
   end
 
+  def stallions
+
+  end
+
   def training
 
   end
