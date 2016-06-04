@@ -2,7 +2,8 @@ Rails.application.routes.draw do
   root "home#index"
   get "/boarding" => "home#boarding", as: "boarding"
   get "/lessons" => "home#lessons", as: "lessons"
-  get "/stallions" => "home#lessons", as: "stallions"
+  get "/stallions" => "home#stallions", as: "stallions"
+  get "/forsale" => "home#forsale", as: "forsale"
   get "/training" => "home#training", as: "training"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

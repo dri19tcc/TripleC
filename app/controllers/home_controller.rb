@@ -15,6 +15,10 @@ class HomeController < ApplicationController
 
   end
 
+  def forsale
+
+  end
+
   def training
 
   end
