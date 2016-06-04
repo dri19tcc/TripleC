@@ -22,4 +22,12 @@ class HomeController < ApplicationController
   def training
 
   end
+
+  def photogallery
+
+  end
+
+  def events
+
+  end
 end
