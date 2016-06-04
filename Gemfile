@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.3.1'
+ruby '2.2.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
@@ -32,9 +32,9 @@ group :development, :test do
   gem 'byebug'
   gem 'simplecov', '~> 0.11.2'
   gem 'pry-rails'
-  gem 'pg'
+  #gem 'pg'
 
-  # gem 'sqlite3'
+  gem 'sqlite3'
 end
 
 group :development do
