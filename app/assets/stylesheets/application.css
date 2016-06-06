@@ -153,3 +153,8 @@ ul.footer {
   background-color: rgb(105,79,64);
   color: rgb(235,213,200);
 }
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
