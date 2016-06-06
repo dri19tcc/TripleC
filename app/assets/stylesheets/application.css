@@ -119,10 +119,6 @@ h3 {
   background-color: rgb(59,50,48);
 }
 
-a:hover.training-link {
-  color: rgb(235,213,200);
-}
-
 a {
   color: rgb(235,213,200);
   text-decoration: underline;
@@ -147,4 +143,8 @@ a {
 
 ul.footer {
   display: inline;
+}
+
+.panel-body ul {
+  list-style-type: none;
 }
