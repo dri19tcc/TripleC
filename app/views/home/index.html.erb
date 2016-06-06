@@ -3,8 +3,8 @@
   <div id="mainslider" class="flexslider yellow">
     <ul class="slides">
       <% 16.times do |i| %>
-        <li data-thumb=<%= "/assets/main/main-#{i + 1}.jpg" %>>
-          <%= image_tag("/assets/gallery/#{i + 1}.jpg", alt: "horse") %>
+        <li>
+          <%= image_tag("/assets/main/main-#{i + 1}.jpg", alt: "horse") %>
         </li>
       <% end %>
     </ul>
