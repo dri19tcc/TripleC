@@ -36,8 +36,8 @@ img {
 }
 
 .panel-link.red {
-  color: rgb(235,213,200);
-  text-decoration: underline;
+  /*color: rgb(235,213,200);
+  text-decoration: underline;*/
 }
 
 .red-space {
@@ -121,4 +121,30 @@ h3 {
 
 a:hover.training-link {
   color: rgb(235,213,200);
+}
+
+a {
+  color: rgb(235,213,200);
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+  font-size: 10px;
+}
+
+.flexslider {
+  margin: 0;
+}
+
+.flex-viewport {
+  margin-bottom: 1rem;
+}
+
+#mainslider .flex-control-nav {
+  display: none;
+}
+
+ul.footer {
+  display: inline;
 }

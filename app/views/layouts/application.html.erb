@@ -8,8 +8,8 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
       <%= javascript_include_tag 'application' %>
       <%= javascript_include_tag 'jquery.flexslider' %>
-      <%= stylesheet_link_tag    'application', media: 'all' %>
       <%= stylesheet_link_tag    'flexslider'  %>
+      <%= stylesheet_link_tag    'application', media: 'all' %>
       <%= csrf_meta_tags %>
   </head>
 
@@ -77,5 +77,24 @@
       </section>
     </div>
 
+    <footer>
+      <ul class="footer">
+        <li>
+          ©2016 - Triple C Pleasure Horses
+        </li>
+        <li>
+          42829 244th Ave SE - Enumclaw, WA 98022
+        </li>
+        <li>
+          253-569-4804
+        </li>
+        <li>
+          Email: <%= link_to "Info", "mailto:info@triplecpleasurehorses.com" %> | <%= link_to "Webmaster", "mailto:webmaster@triplecpleasurehorses.com" %>
+        </li>
+        <li>
+          <%= link_to "Twitter", "https://twitter.com/CCC_Horses" %> | <%= link_to "Facebook", "www.facebook.com/pages/Triple-C-Pleasure-Horses/161073940597199" %> | <%= link_to "Map", "g.co/maps/3rhfn" %>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
