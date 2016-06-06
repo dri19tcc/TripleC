@@ -1,0 +1,160 @@
+body {
+  padding-top: 99px;
+  font-size: 20px;
+  font-family: monospace;
+  color: rgb(235,213,200);
+  background-color: rgb(59,50,48);
+}
+
+.navbar-inverse {
+  font-size: 20px;
+  font-family: monospace;
+  background-color: rgb(39,34,31);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: rgb(235,213,200);
+}
+
+img {
+   border: 1px solid rgb(152,94,12);
+   border-radius: 5px;
+}
+
+.panel-heading.red {
+  background-color: rgb(160,57,16);
+  border-bottom-color: rgb(160,57,16)
+}
+
+.panel-body.red {
+  color: rgb(235,213,200);
+  background-color: rgb(59,50,48);
+}
+
+.panel-default.red {
+  border-color: rgb(160,57,16);
+}
+
+.panel-link.red {
+  /*color: rgb(235,213,200);
+  text-decoration: underline;*/
+}
+
+.red-space {
+  padding: 2rem 0rem 1rem 0rem;
+}
+
+.panel-heading.green {
+  background-color: rgb(72,106,46);
+  border-bottom-color: rgb(72,106,46);
+}
+
+.panel-body.green {
+  color: rgb(235,213,200);
+  background-color: rgb(59,50,48);
+}
+
+.panel-default.green {
+  border-color: rgb(72,106,46);
+}
+
+.panel-link.green {
+  color: rgb(235,213,200);
+  text-decoration: underline;
+}
+
+.panel-heading.yellow {
+  background-color: rgb(152,94,12);
+  border-bottom-color: rgb(152,94,12);
+}
+
+.panel-body.yellow {
+  color: rgb(235,213,200);
+  background-color: rgb(59,50,48);
+}
+
+.panel-default.yellow {
+  border-color: rgb(152,94,12);
+}
+
+.panel-link.yellow {
+  color: rgb(152,94,12);
+  text-decoration: underline;
+}
+
+.training-link {
+  color: rgb(235,213,200);
+  text-decoration: underline;
+}
+
+.logo {
+  border-style: none;
+  padding-bottom: 4rem;
+}
+
+.top {
+  display: inline-flex;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+h3 {
+  font-size: 28px;
+  font-family: monospace;
+}
+
+.flexslider.yellow {
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(59,50,48);
+}
+
+.flex-control-thumbs {
+  background-color: rgb(59,50,48);
+}
+
+.slides {
+  background-color: rgb(59,50,48);
+}
+
+a {
+  color: rgb(235,213,200);
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+  font-size: 10px;
+}
+
+.flexslider {
+  margin: 0;
+}
+
+.flex-viewport {
+  margin-bottom: 1rem;
+}
+
+#mainslider .flex-control-nav {
+  display: none;
+}
+
+ul.footer {
+  display: inline;
+}
+
+.panel-body ul {
+  list-style-type: none;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: rgb(105,79,64);
+  color: rgb(235,213,200);
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
