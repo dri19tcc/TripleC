@@ -21,29 +21,29 @@
       <div class="container">
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li>
-              <%= link_to "Home", root_path %>
+            <li class="<%= is_active?("index") %>">
+              <%= link_to "Home", root_path, {:controller => 'home', :action => 'index'} %>
             </li>
-            <li>
-              <%= link_to "Boarding", boarding_path %>
+            <li class="<%= is_active?("boarding") %>">
+              <%= link_to "Boarding", boarding_path, {:controller => 'home', :action => 'boarding'} %>
             </li>
-            <li>
-              <%= link_to "Lessons", lessons_path %>
+            <li class="<%= is_active?("lessons") %>">
+              <%= link_to "Lessons", lessons_path, {:controller => 'home', :action => 'lessons'} %>
             </li>
-            <li>
-              <%= link_to "Stallions", stallions_path %>
+            <li class="<%= is_active?("stallions") %>">
+              <%= link_to "Stallions", stallions_path, {:controller => 'home', :action => 'stallions'} %>
             </li>
-            <li>
-              <%= link_to "For Sale", forsale_path %>
+            <li class="<%= is_active?("forsale") %>">
+              <%= link_to "For Sale", forsale_path, {:controller => 'home', :action => 'forsale'} %>
             </li>
-            <li>
-              <%= link_to "Training", training_path %>
+            <li class="<%= is_active?("training") %>">
+              <%= link_to "Training", training_path, {:controller => 'home', :action => 'training'} %>
             </li>
-            <li>
-              <%= link_to "Photo Gallery", photogallery_path %>
+            <li class="<%= is_active?("photogallery") %>">
+              <%= link_to "Photo Gallery", photogallery_path, {:controller => 'home', :action => 'photogallery'} %>
             </li>
-            <li>
-              <%= link_to "Events", events_path %>
+            <li class="<%= is_active?("events") %>">
+              <%= link_to "Events", events_path, {:controller => 'home', :action => 'events'} %>
             </li>
             <li>
               <%= link_to "EFFRA", "http://effra.org" %>

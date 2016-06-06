@@ -148,3 +148,8 @@ ul.footer {
 .panel-body ul {
   list-style-type: none;
 }
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: rgb(105,79,64);
+  color: rgb(235,213,200);
+}
